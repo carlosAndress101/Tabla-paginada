@@ -51,9 +51,7 @@ function nextPage(){
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(
-          "http://89.116.25.43:3500/api/empleados/listar"
-        );
+        const response = await fetch(`${import.meta.env.VITE_API}`);
         const data = await response.json();
         setEmployees(data.result);
       } catch (error) {
