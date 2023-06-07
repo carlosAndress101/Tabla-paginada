@@ -61,7 +61,7 @@ function nextPage(){
       }
     }
     fetchData();
-  }, []);
+  }, [currentPage]);
 
 
   return (
