@@ -1,4 +1,4 @@
-import Tabla from '../../components/EmployeesList/tabla';
+import Tabla from "../components/Tabla"
 
 const HomePage = () => {
   return (

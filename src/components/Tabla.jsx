@@ -122,7 +122,7 @@ function nextPage(){
                                     <Chip
                                         variant="ghost"
                                         size="sm"
-                                        value={estado ? "Activo" : "false"}
+                                        value={estado ? "Activo" : "Inactivo"}
                                         color={estado ? "green" : "red"}
                                 />
                                 </div>
